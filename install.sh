@@ -40,10 +40,13 @@ cp c9vnc.run ${HOME}/workspace/.c9/runners/c9vnc.run
 sudo cp run.sh /opt/c9vnc/c9vnc.sh
 
 #Copy the run script to proper /opt/ directory
-sudo cp capture.sh /home/ubuntu/capture.sh
+sudo cp vps.gif /home/ubuntu/vps.gif
 
-Copy the run script to proper /opt/ directory
-sudo cp capture2.sh /home/ubuntu/capture2.sh
+#Copy the run script to proper /opt/ directory
+sudo cp capture.sh /home/ubuntu/Desktop/capture.sh
+
+#Copy the run script to proper /opt/ directory
+sudo cp capture2.sh /home/ubuntu/Desktop/capture2.sh
 
 #Copy the run script to proper /opt/ directory
 sudo cp uninstall.sh /opt/c9vnc/uninstall.sh
