@@ -6,6 +6,20 @@ if [[ $UID != 0 ]]; then
     echo "sudo $0 $*"
     exit 1
 fi
+#Get Updage
+sudo apt-get update
+
+#Get Firefox for wiki
+sudo apt-get install firefox
+
+#Get File Explore
+sudo apt-get install nemo
+
+#Get rar
+sudo apt-get install rar
+
+#Get Gpac
+sudo apt-get install gpac
 
 #Get prerequisites
 sudo apt-get install supervisor xvfb fluxbox x11vnc websockify
@@ -24,6 +38,12 @@ cp c9vnc.run ${HOME}/workspace/.c9/runners/c9vnc.run
 
 #Copy the run script to proper /opt/ directory
 sudo cp run.sh /opt/c9vnc/c9vnc.sh
+
+#Copy the run script to proper /opt/ directory
+sudo cp capture.sh /home/ubuntu/capture.sh
+
+Copy the run script to proper /opt/ directory
+sudo cp capture2.sh /home/ubuntu/capture2.sh
 
 #Copy the run script to proper /opt/ directory
 sudo cp uninstall.sh /opt/c9vnc/uninstall.sh
